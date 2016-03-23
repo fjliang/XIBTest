@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3B54781CA24E5600FEC3EC /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B54771CA24E5600FEC3EC /* OneViewController.m */; };
+		7E3B547A1CA25F7E00FEC3EC /* manage_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B54791CA25F7E00FEC3EC /* manage_bg.png */; };
 		7EBA838A1CA12F9B00CC4A54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBA83891CA12F9B00CC4A54 /* main.m */; };
 		7EBA838D1CA12F9B00CC4A54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBA838C1CA12F9B00CC4A54 /* AppDelegate.m */; };
 		7EBA83901CA12F9B00CC4A54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBA838F1CA12F9B00CC4A54 /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E3B54761CA24E5600FEC3EC /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		7E3B54771CA24E5600FEC3EC /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		7E3B54791CA25F7E00FEC3EC /* manage_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manage_bg.png; sourceTree = "<group>"; };
 		7EBA83851CA12F9B00CC4A54 /* XIBTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XIBTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBA83891CA12F9B00CC4A54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EBA838B1CA12F9B00CC4A54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +106,7 @@
 		7EBA83871CA12F9B00CC4A54 /* XIBTest */ = {
 			isa = PBXGroup;
 			children = (
+				7E3B54791CA25F7E00FEC3EC /* manage_bg.png */,
 				7EBA838B1CA12F9B00CC4A54 /* AppDelegate.h */,
 				7EBA838C1CA12F9B00CC4A54 /* AppDelegate.m */,
 				7EBA838E1CA12F9B00CC4A54 /* ViewController.h */,
@@ -110,6 +116,8 @@
 				7EBA83961CA12F9B00CC4A54 /* LaunchScreen.storyboard */,
 				7EBA83991CA12F9B00CC4A54 /* Info.plist */,
 				7EBA83881CA12F9B00CC4A54 /* Supporting Files */,
+				7E3B54761CA24E5600FEC3EC /* OneViewController.h */,
+				7E3B54771CA24E5600FEC3EC /* OneViewController.m */,
 			);
 			path = XIBTest;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EBA83981CA12F9B00CC4A54 /* LaunchScreen.storyboard in Resources */,
+				7E3B547A1CA25F7E00FEC3EC /* manage_bg.png in Resources */,
 				7EBA83951CA12F9B00CC4A54 /* Assets.xcassets in Resources */,
 				7EBA83931CA12F9B00CC4A54 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +282,7 @@
 				7EBA83901CA12F9B00CC4A54 /* ViewController.m in Sources */,
 				7EBA838D1CA12F9B00CC4A54 /* AppDelegate.m in Sources */,
 				7EBA838A1CA12F9B00CC4A54 /* main.m in Sources */,
+				7E3B54781CA24E5600FEC3EC /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +508,7 @@
 				7EBA83B41CA12F9B00CC4A54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EBA83B51CA12F9B00CC4A54 /* Build configuration list for PBXNativeTarget "XIBTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				7EBA83B71CA12F9B00CC4A54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EBA83B81CA12F9B00CC4A54 /* Build configuration list for PBXNativeTarget "XIBTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				7EBA83BA1CA12F9B00CC4A54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
